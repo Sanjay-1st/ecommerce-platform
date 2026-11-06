@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 _Nothing yet._
 
+## [0.1.1] - 2026-11-06
+### Fixed
+- `ecommerce/src/App.js`: added missing `import React from 'react'`, which was causing a hard build failure ("Failed to compile") under this project's ESLint config.
+
 ## [0.1.0] - 2023-01-09
 ### Added
 - Storefront (`ecommerce`) combined with the admin panel into this single monorepo. Product browsing, login page.
